@@ -7,7 +7,7 @@ This is a project for detecting the quality level of wine using machine learning
 The project uses logistic regression to classify wine into three quality levels: low, high. The dataset is preprocessed to remove any missing or incomplete data and to normalize the feature values. Many models are trained on the preprocessed dataset and evaluated using accuracy score and confusion matrix.
 
 
-# Description of Qualities
+## Description of Qualities
 
 1. Alcohol: the amount of alcohol in wine
 2. Volatile acidity: acetic acid content which leading to an unpleasant vinegar taste
@@ -38,8 +38,6 @@ To run this project, you will need to install the following Python packages:
 You can install these packages using pip:
 
     pip install pandas numpy scikit-learn
-
-### Usage
 
 Once you have installed the required packages, you can run the `Red_wine.ipynb` and `White_wine.ipynb` script to train and evaluate the logistic regression model on the Wine Quality dataset. 
 
